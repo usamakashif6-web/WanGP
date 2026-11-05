@@ -1,29 +1,52 @@
+<div align="center">
+
+<img src="favicon.png" alt="WanGP logo" width="110">
+
 # WanGP
 
------
-<p align="center">
-<b>WanGP by DeepBeepMeep : The best Open Source Generative Models Accessible to the GPU Poor</b>
-</p>
+### 🎬 The best Open Source Generative Models — Accessible to the GPU Poor
+
+*Video · Image · Audio · 3D · Interactive Worlds — all on your own GPU*
+
+[![Website](https://img.shields.io/badge/🌐_Website-wangp.ai-8A2BE2?style=for-the-badge)](https://wangp.ai/)
+[![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/g7efUW9jGV)
+[![X](https://img.shields.io/badge/Follow-@deepbeepmeep-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/deepbeepmeep)
+
+![Version](https://img.shields.io/badge/version-v19.0-brightgreen?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Min VRAM](https://img.shields.io/badge/min_VRAM-4_GB-orange?style=flat-square)
+![GPUs](https://img.shields.io/badge/GPU-Nvidia_%7C_AMD-76B900?style=flat-square&logo=nvidia&logoColor=white)
+[![License](https://img.shields.io/badge/license-WanGP_Community_2.0-blue?style=flat-square)](LICENSE.txt)
+
+**[🚀 Quick Start](#-quick-start)** &nbsp;•&nbsp;
+**[✨ Highlights](#-highlights)** &nbsp;•&nbsp;
+**[🔥 What's New](#-latest-updates)** &nbsp;•&nbsp;
+**[📚 Docs](#-documentation)** &nbsp;•&nbsp;
+**[🆘 Troubleshooting](docs/TROUBLESHOOTING.md)**
+
+</div>
+
+---
 
 WanGP is a one-stop super app for open source generative models: create videos, images, music, speech and 3D assets, then step inside interactive worlds. Run locally on your own GPU, use the browser interface, or let **Deepy Prime** turn your ideas into finished creations.
 
-## Highlights
+## ✨ Highlights
 
 | Modality | Supported models |
 | --- | --- |
-| **Video** | **Wan 2.1/2.2** and derived models, **MiniMax H3**, **LTX-2/2.3/2.5**, **Hunyuan Video 1/1.5**, **LongCat**, **Kandinsky**, **LTXV**, **MagiHuman** |
-| **Image** | **Fibo 2.0**, **Flux 3 Klein** and **Flux 1/2**, **MOSS Image / Edit**, **Krea 2**, **Qwen Image**, **Z-Image**, **SenseNova**, **Ideogram 4**, **HiDream** |
-| **Audio / TTS** | **Fish Audio Drama 3**, **MOSS-TTS v1.5**, **Qwen3 TTS**, **MiniMax H3 Voice Clone**, **Ace Step 1/2/XL**, **Omnivoice**, **Index TTS2/2.5**, **KugelAudio**, **HeartMula**, **Chatterbox**, **Minimax Music**, **Stable Audio 3** |
-| **3D** | **Hunyuan3D 2.1**, **TRELLIS.2**, **TripoSG**, **TripoSplat**, **PartCrafter**, **WorldMirror 2.0**, **MapAnything**, **Depth Anything 3 Points**, **MoGe-2** |
-| **Interactive worlds** | **Hy-Nomas 8B** from text; **EVOKE Turbo 14B** from an image. Walk, look around, introduce events and save your journey. |
+| 🎥 **Video** | **Wan 2.1/2.2** and derived models, **MiniMax H3**, **LTX-2/2.3/2.5**, **Hunyuan Video 1/1.5**, **LongCat**, **Kandinsky**, **LTXV**, **MagiHuman** |
+| 🖼️ **Image** | **Fibo 2.0**, **Flux 3 Klein** and **Flux 1/2**, **MOSS Image / Edit**, **Krea 2**, **Qwen Image**, **Z-Image**, **SenseNova**, **Ideogram 4**, **HiDream** |
+| 🎵 **Audio / TTS** | **Fish Audio Drama 3**, **MOSS-TTS v1.5**, **Qwen3 TTS**, **MiniMax H3 Voice Clone**, **Ace Step 1/2/XL**, **Omnivoice**, **Index TTS2/2.5**, **KugelAudio**, **HeartMula**, **Chatterbox**, **Minimax Music**, **Stable Audio 3** |
+| 🧊 **3D** | **Hunyuan3D 2.1**, **TRELLIS.2**, **TripoSG**, **TripoSplat**, **PartCrafter**, **WorldMirror 2.0**, **MapAnything**, **Depth Anything 3 Points**, **MoGe-2** |
+| 🌍 **Interactive worlds** | **Hy-Nomas 8B** from text; **EVOKE Turbo 14B** from an image. Walk, look around, introduce events and save your journey. |
 
-### Create a World, Then Explore It
+### 🌍 Create a World, Then Explore It
 
 - **Keyboard exploration**: open a generated world in the **Worlds gallery**, press **Explore**, and walk with WASD while the arrow keys turn the camera. Each move generates the next part of the scene.
 - **Keep what you discover**: capture a view, record the journey as a video, or **Save World** to resume later. Continue a saved `.wgpworld` with movement instructions or ask Deepy to extend it.
 - **Choose your tradeoffs**: adjust memory and, for Hy-Nomas, quality and move length. **8 GB of VRAM is enough to get started**; exploration speed depends on the model, settings and GPU.
 
-### Deepy Prime — From an Idea to a Finished Creation
+### 🤖 Deepy Prime — From an Idea to a Finished Creation
 
 - **A local creative assistant**: plan and run image, video, speech, music, 3D and world generation, inspect the results, and refine them in chat.
 - **More context in the same VRAM**: the **Q4 KV cache** fits roughly x4 the conversation context within the same memory budget.
@@ -31,9 +54,17 @@ WanGP is a one-stop super app for open source generative models: create videos, 
 - **Create with Python and Media Flow**: make exact lettering, charts, subtitles and procedural 3D props; automate batches and restore, upscale or smooth long videos while preserving their audio.
 - **Deepy Apps — development preview**: ask Deepy to build games, interactive stories, music toys and explorable 3D scenes using generated assets. Play them in WanGP, keep progress, share `.wgpapp` files and continue improving them in later chats.  
 
-[Meet Deepy](https://wangp.ai/deepy/) · [Try 10 generated apps](https://wangp.ai/deepy/apps/) · [World Models demos and exploration guide](https://wangp.ai/worlds/)
+<p align="center">
+  <a href="https://wangp.ai/deepy/apps/"><img src="docs/images/deepy-apps-showcase.png" alt="Apps built by Deepy Prime" width="520"></a>
+</p>
 
-### Run More Models on More Hardware
+<p align="center">
+  <a href="https://wangp.ai/deepy/"><b>🤖 Meet Deepy</b></a> &nbsp;·&nbsp;
+  <a href="https://wangp.ai/deepy/apps/"><b>🎮 Try 10 generated apps</b></a> &nbsp;·&nbsp;
+  <a href="https://wangp.ai/worlds/"><b>🌍 World Models demos</b></a>
+</p>
+
+### ⚡ Run More Models on More Hardware
 
 - **Low VRAM requirements**: run select models with as little as **4 GB of VRAM**.
 - **Older Nvidia GPU support**: use GTX 10XX, RTX 20XX, and newer cards.
@@ -49,7 +80,7 @@ WanGP is a one-stop super app for open source generative models: create videos, 
 - **WanGP API**: add generative capabilities to your own apps.
 - **MCP Interface**: external agents can access to all WanGP features and their activity is  visible in the Web interface.
 
-### Built-In Creation Tools
+### 🛠️ Built-In Creation Tools
 
 - **Video, image, audio, 3D and Worlds galleries**: browse generations, inspect 3D assets, explore worlds and reuse outputs as new inputs.
 - **Reusable settings**: extract settings from any generation, create templates, and share them.
@@ -60,11 +91,9 @@ WanGP is a one-stop super app for open source generative models: create videos, 
 - **Audio postprocessing**: generate soundtracks with MMAudio, replace voices with SeedVC, or remux a video with any soundtrack.
 - **Ready-to-use Plugins**: Gallery Browser, Motion Designer, Models/Checkpoints Manager, CivitAI browser and downloader, and more.
 
-**Discord Server to get Help from the WanGP Community and show your Best Gens:** https://discord.gg/g7efUW9jGV
-
-**Follow DeepBeepMeep on Twitter/X to get the Latest News**: https://x.com/deepbeepmeep
-
-**Official WanGP Web Site**: https://wangp.ai/
+| 💬 Get help & share your best gens | 📰 Latest news | 🌐 Official site |
+| :---: | :---: | :---: |
+| [Discord Server](https://discord.gg/g7efUW9jGV) | [@deepbeepmeep on X](https://x.com/deepbeepmeep) | [wangp.ai](https://wangp.ai/) |
 
 > [!IMPORTANT]
 > **WanGP is free to use locally.** The official project will never ask you to pay a license fee, subscription, or donation to run WanGP on your own computer (see the license for terms).
@@ -74,14 +103,18 @@ WanGP is a one-stop super app for open source generative models: create videos, 
 
 ## 📋 Table of Contents
 
+- [✨ Highlights](#-highlights)
+- [🔥 Latest Updates](#-latest-updates)
 - [🚀 Quick Start](#-quick-start)
+- [🐳 Docker](#-docker)
 - [📦 Installation](#-installation)
 - [🎯 Usage](#-usage)
 - [📚 Documentation](#-documentation)
+- [📺 Video Guides](#-video-guides)
 - [🔗 Related Projects](#-related-projects)
 
 
-## 🔥 Latest Updates : 
+## 🔥 Latest Updates
 
 ## 31st of October 2026: WanGP v19.0 - More Treats Than You Can Handle
 
@@ -108,6 +141,9 @@ WanGP is a one-stop super app for open source generative models: create videos, 
   - **App bar**: apps sit side by side with an icon and a name, and the icons on the right open **Configuration**, **Apps & PlugIn Manager** and **Infos** (guides and About together).
   - **Full-screen apps**: Media Flow and Showrunner open full screen, also straight from `/media-flow/` and `/showrunner/`; **WanGP** brings you back where you were.
   - **Media Flow**: redesigned as an app, with help on its controls and its [guide](docs/MEDIA_FLOW.md) built in.
+
+<details>
+<summary><b>📜 Show older updates (v12.72 → v18.888)</b></summary>
 
 ## 29th of October 2026: WanGP v18.888 - Are You Game?
 
@@ -428,8 +464,9 @@ The base model works without an accelerator; optional LoRA profiles below offer 
   
 *update WanGP v12.72**: H3 Outpainting, Viggle Animate
 
+</details>
 
-See full changelog: **[Changelog](docs/CHANGELOG.md)**
+📖 See full changelog: **[Changelog](docs/CHANGELOG.md)**
 
 
 ## 🚀 Quick Start
@@ -622,7 +659,7 @@ python wgp.py --process my_queue.zip
 ```
 Create your queue in the web UI, save it with "Save Queue", then process it headless. See [CLI Documentation](docs/CLI.md) for details.
 
-## 🐳 Docker:
+## 🐳 Docker
 
 **For Debian-based systems (Ubuntu, Debian, etc.):**
 
@@ -685,7 +722,7 @@ For detailed installation instructions for different GPU generations:
 - **[Changelog](docs/CHANGELOG.md)** - Latest updates and version history
 - **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
 
-## 📚 Video Guides
+## 📺 Video Guides
 - Nice Video that explain how to use Vace:\
 https://www.youtube.com/watch?v=FMo9oN2EAvE
 - Another Vace guide:\
@@ -703,6 +740,12 @@ https://www.youtube.com/watch?v=T5jNiEhf9xk
 
 ---
 
-<p align="center">
-Made with ❤️ by DeepBeepMeep
-</p>
+<div align="center">
+
+**Made with ❤️ by DeepBeepMeep**
+
+⭐ If WanGP helps you create, give the repo a star! ⭐
+
+[⬆️ Back to top](#wangp)
+
+</div>
